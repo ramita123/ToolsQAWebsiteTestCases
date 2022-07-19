@@ -60,6 +60,9 @@ import Toolsqa.ToolsaQATestCase.Base;
 	@Test(priority=0,enabled=true)
 	 public void AutoComplete() throws InterruptedException
 	 {
+		
+		System.out.println("this code will selelct color from multicolorlist");
+		
 		report.createTest("AutoComplete");
 		 obj= new widgetsAutocomplete(driver);
 		 obj.AutoComplete().click();
