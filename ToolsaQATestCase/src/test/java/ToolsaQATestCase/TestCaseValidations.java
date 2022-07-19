@@ -40,6 +40,9 @@ import Toolsqa.ToolsaQATestCase.Base;
 	{
 		driverinitiate();
 		System.out.println("start the browser");
+		System.out.println("should start only once");
+		System.out.println("check whih browser you are using");
+		
 		
 	}
 	
