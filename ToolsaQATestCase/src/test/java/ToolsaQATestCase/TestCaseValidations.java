@@ -39,6 +39,7 @@ import Toolsqa.ToolsaQATestCase.Base;
 	public void strartDriver()
 	{
 		driverinitiate();
+		System.out.println("start the browser");
 		
 	}
 	
@@ -52,6 +53,7 @@ import Toolsqa.ToolsaQATestCase.Base;
 		
 		 report= new ExtentReports();
 		report.attachReporter(spark);
+		System.out.println("this code will run to generate the xtent report");
 	}
 	
 	//testcase1
